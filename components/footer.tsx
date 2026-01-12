@@ -120,28 +120,17 @@ export function Footer() {
           </div>
 
           <div>
-
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/80">Legal</h3>
-
-            <ul className="space-y-3">
-
-              {footerLinks.legal.map((link) => (
-
-                <li key={link.name}>
-
-                  <a href={link.href} className="text-sm text-white/60 transition-colors hover:text-white">
-
-                    {link.name}
-
-                  </a>
-
-                </li>
-
-              ))}
-
-            </ul>
-
-          </div>
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/80">Legal</h3>
+            <ul className="space-y-3">
+              {footerLinks.legal.map((link) => (
+                <li key={link.name}>
+                  <a href={link.href} className="text-sm text-white/60 transition-colors hover:text-white">
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
 
         </div>
 
