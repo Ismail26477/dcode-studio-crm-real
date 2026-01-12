@@ -43,7 +43,7 @@ export function Footer() {
                 alt="D-Code Studio Robot Logo"
                 width={40}
                 height={40}
-                className="h-16 w-22"
+                className="h-16 w-24"
               />
               <span className="text-xl font-semibold">D-Code Studio</span>
             </div>
